@@ -3,6 +3,7 @@ import datetime
 from django.http import HttpResponse
 from django.http import HttpResponse, request
 from django.template import Template,Context
+from django.shortcuts import render
 
 
 def template2(request):
