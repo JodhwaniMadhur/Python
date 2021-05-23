@@ -7,8 +7,8 @@ import os
 from datetime import datetime
 
 def mail(current_date_time):
-    fromaddr = "varshacreationpimpri@gmail.com"
-    toaddr = "jodhwanimadhur@gmail.com"
+    fromaddr = "Senders_email_address"
+    toaddr = "recievers_email_address"
    
 # instance of MIMEMultipart
     msg = MIMEMultipart()
@@ -53,7 +53,7 @@ def mail(current_date_time):
     s.starttls()
   
 # Authentication
-    s.login(fromaddr, "Mjdvnyc7@")
+    s.login(fromaddr, "senders_email_password")
   
 # Converts the Multipart msg into a string
     text = msg.as_string()
