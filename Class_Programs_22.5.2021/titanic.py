@@ -7,8 +7,8 @@ import os
 from pandas.plotting import scatter_matrix
 import matplotlib.pyplot as plt
 from matplotlib.pyplot import figure,show
-#import seaborn as sb
-#from seaborn import countplot
+import seaborn as sb
+from seaborn import countplot
 
 def titanic_logistic():
     #step 1(load data)
