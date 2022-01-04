@@ -5,6 +5,9 @@ print("Demonstration of Behaviours of Class")
 class Demo:
       
       def __init__(self):
+        '''
+        Just declaration of class variables taking place here
+        '''
         self.i = 0
         self.j = 0
       

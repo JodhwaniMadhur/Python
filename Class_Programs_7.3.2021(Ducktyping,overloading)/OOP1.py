@@ -3,6 +3,9 @@
 #private __no3
 class Base:
     def __init__(self):
+        '''
+        Just initialization of variables taking place here.
+        '''
         self.no1=11
         self._no2=21
         self.__no3=51

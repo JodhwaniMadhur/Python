@@ -1,7 +1,7 @@
 import os
 import time
 import psutil
-from sys import *
+from sys import argv
 import schedule
 
 def ProcessDisplay(FolderName = "Marvellous"):

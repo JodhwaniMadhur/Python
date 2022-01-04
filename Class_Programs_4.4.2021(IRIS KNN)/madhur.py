@@ -1,4 +1,4 @@
-from mymodules import *
+from mymodules import accuracy_score
 
 def CalculateDistance(X,Y):
     return distance.euclidean(X,Y)

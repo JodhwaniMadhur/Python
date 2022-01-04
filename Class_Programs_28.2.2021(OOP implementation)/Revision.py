@@ -6,10 +6,17 @@
 
 class Numbers:
     def __init__(self,no = 10):
+        '''
+        initialization taking place here
+        '''
         self.size = no
         self.arr = []
         
     def __del__(self):
+        '''
+        Nothin much happening here, just deallocation of resources
+        taking place here.
+        '''
         print("Dealocating the memory of object")
         del self.arr
         
@@ -58,8 +65,6 @@ class Numbers:
             Flag = False
     
 def main():
-    obj2 = Numbers()
-    
     print("Enter number of elements")
     value = int(input())
     

@@ -1,5 +1,8 @@
 class Student:
     def __init__(self,str,a,b,c):
+        '''
+        initialization taking place here
+        '''
         self.name=str
         self.m1=a
         self.m2=b

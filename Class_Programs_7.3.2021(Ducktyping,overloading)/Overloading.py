@@ -10,4 +10,5 @@ class Demo:
     
 obj=Demo()
 ret=obj.Add(10,22)
+ret=obj.Add(10,20,30)
 print(ret)
