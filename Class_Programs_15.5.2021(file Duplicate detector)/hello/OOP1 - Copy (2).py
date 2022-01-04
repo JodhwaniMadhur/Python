@@ -3,7 +3,7 @@
 #private __no3
 class Base:
     def __init__(self):
-        '''Just initialization of variables done here'''
+        """Just initialization of variables done here"""
         self.no1=11
         self._no2=21
         self.__no3=51

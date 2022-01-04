@@ -1,6 +1,6 @@
 class Base:
     def __init__(self):
-        '''initialization taking place here'''
+        """initialization taking place here"""
         self.i = 10
         self.j = 20
         
@@ -9,7 +9,7 @@ class Base:
 
 class Derived(Base):
     def __init__(self):
-        '''initialization taking place here'''
+        """initialization taking place here"""
         Base.__init__(self)
         #self.__init__()        Recursive call
         #super().__init__()

@@ -1,9 +1,9 @@
 class BookStore:
     no=0
     def __init__(self,bookname,author):
-        '''
+        """
         Just initialization of variables is taking place here.
-        '''
+        """
         self.book=bookname
         self.name=author
         BookStore.no+=1

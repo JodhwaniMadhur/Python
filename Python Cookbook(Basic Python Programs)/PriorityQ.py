@@ -5,7 +5,7 @@ import heapq
 
 class PriorityQueue:
     def __init__(self):
-        '''Just initialization here'''
+        """Just initialization here"""
         self._queue=[]
         self._index=0
   

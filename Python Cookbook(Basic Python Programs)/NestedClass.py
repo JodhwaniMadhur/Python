@@ -1,6 +1,6 @@
 class Outer:
     def __init__(self):
-        '''Just initialization taking place here.'''
+        """Just initialization taking place here."""
         self.i = 0
         self.j = 0
         self.iobj = Inner()
