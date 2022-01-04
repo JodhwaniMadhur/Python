@@ -1,5 +1,4 @@
-from sklearn.preprocessing import LabelEncoder
-import numpy as np 
+import numpy as np
 from sklearn.linear_model import LinearRegression
 import pandas as pd 
 import math as m
@@ -26,8 +25,6 @@ def linear_regression_predictor(train_x,train_y,test_x,test_y):
     obj.fit(train_x,train_y)
     print("R square value is:",obj.score(train_x,train_y))
     
-
-    
     
 
 
@@ -41,7 +38,6 @@ def main():
     train_label,test_label=data_cutter(data_label)
     print(train_label.info())#this is after the data is cleaned and cut 
     #into test and trainset,we are printing taining set's info here
-    
     #read target of the data and cut them into train set and test set
     data_target=pd.read_csv(path,usecols=['Class'])
     train_target,test_target=data_cutter(data_target)
