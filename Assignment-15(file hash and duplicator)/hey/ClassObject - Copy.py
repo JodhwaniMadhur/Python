@@ -5,6 +5,9 @@ print("Demonstration of Class")
 class Demo:
 
     def __init__(self,value1,value2):
+        '''
+        Just declaration of variables and methods in class
+        '''
         print("Inside init method")
         self.i = value1
         self.j = value2
@@ -13,7 +16,7 @@ class Demo:
         print("Inside fun")
         print(self.i,self.j)
 
-    def Add(self):
+    def add(self):
         print(self.i + self.j)
 
 # Create object of Demo class
@@ -29,5 +32,5 @@ obj2 = Demo(50,60)
 obj2.fun()
 
 # Call method Add to perform addition of characteristics
-obj1.Add()
-obj2.Add()
+obj1.add()
+obj2.add()

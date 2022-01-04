@@ -5,6 +5,9 @@ print("Demonstration of Class")
 class Demo:
 
     def __init__(self,value1,value2):
+        '''
+        Just declaration of variables and methods in class
+        '''
         print("Inside init method")
         self.i = value1
         self.j = value2

@@ -3,8 +3,10 @@ print("---- Marvellous Infosystems by Piyush Khairnar-----")
 print("Demonstration of Behaviours of Class")
       
 class Demo:
-      
       def __init__(self):
+        '''
+        Just declaration of variables and methods in class
+        '''
         self.i = 0
         self.j = 0
       
