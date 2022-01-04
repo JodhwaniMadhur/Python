@@ -33,12 +33,6 @@ def predictor(path):
     #summation (Y_predicted-Y_mean)**2/(Y-y_mean)**2
 
 
-    
-
-
-
-
-
 def main():
     print("Play Predictor App")
     print("Enter file which contains dataset")

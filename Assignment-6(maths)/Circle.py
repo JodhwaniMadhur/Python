@@ -6,7 +6,7 @@ class Circle:
         '''
         self.Area=0.0
         self.Circumference=0.0
-        
+
     def Accept(self):
         print("Enter value of radius")
         self.radius=float(input())

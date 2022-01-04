@@ -1,15 +1,15 @@
 
-global sum
+global sumofvar
 global i
 i=0
-sum=0
+sumofvar=0
 
 def AddR(data):
     if i < len(data):
-        sum=sum+data[i]
+        sumofvar=sumofvar+data[i]
         i=i+1
         AddR(data)
-    return sum
+    return sumofvar
 
 arr=[]
 print("Enter number of elements")

@@ -1,7 +1,6 @@
 print("---- Marvellous Infosystems by Piyush Khairnar-----")
 
-print("Demonstration of Behaviours of Class")
-      
+print("Demonstration of Behaviours of Class") 
 class Demo:
       
       def __init__(self):

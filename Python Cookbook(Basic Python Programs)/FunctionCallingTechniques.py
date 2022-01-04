@@ -31,12 +31,12 @@ def Gun(valueList):
 
 print("Demonstration of Mutable arguments")
 
-list = [10,20,30,40]
-print("Contents of list before call",list)
-print("Id of list before call ", id(list))
+l = [10,20,30,40]
+print("Contents of list before call",l)
+print("Id of list before call ", id(l))
 
-Gun(list)
-print("Contents of list after call",list)
-print("Id of list after call ", id(list))
+Gun(l)
+print("Contents of list after call",l)
+print("Id of list after call ", id(l))
 
 

@@ -1,6 +1,6 @@
 class Demo:
 #python doesn't support method overloading
-    
+
     def Add(self,no1=None,no2=None,no3=None):
         if(no1!=None and no2!=None and no3!=None):
             return no1+no2+no3

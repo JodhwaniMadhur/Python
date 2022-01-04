@@ -15,12 +15,12 @@ class Arithmetic:
         
         
     def ChkPerfect(self):
-        sum = 0
+        sumofvar = 0
         for x in range(1, self.Value):
             if self.Value % x == 0:
-                sum += x
+                sumofvar += x
 
-        if(sum==self.Value):
+        if(sumofvar==self.Value):
             print(self.Value,end=" ")
             print("is a Perfect Number")
         else:
@@ -38,11 +38,11 @@ class Arithmetic:
         print()
               
     def FactorSum(self):
-        sum = 0
+        sumofvar = 0
         for x in range(1, self.Value):
            if self.Value % x == 0:
-               sum += x
-        print("Sum of Factors is:",sum)
+               sumofvar += x
+        print("Sum of Factors is:",sumofvar)
               
 def main():
     obj1=Arithmetic(65)
