@@ -1,7 +1,3 @@
-#https://us02web.zoom.us/j/81908539306?pwd=RlFVRlVTVVQ0ZkxoTE96Lzl3dnNNQT09
-
-
-import os
 from sys import *
 
 

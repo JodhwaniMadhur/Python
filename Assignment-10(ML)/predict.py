@@ -2,7 +2,6 @@ from sklearn import tree
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score
 import pandas as pd
-import numpy as np
 
 def KNN(data_train,target_train,data_test):
     obj=KNeighborsClassifier(n_neighbors=1)
