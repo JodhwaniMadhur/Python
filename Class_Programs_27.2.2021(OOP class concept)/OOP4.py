@@ -3,6 +3,7 @@ class Arithmetic:
     #callback constructor like
     #calls itself
     def __init__(self,i,j):
+        '''Just initialization of variables here'''
         print("Inside Constructor")
         self.no1=i
         self.no2=j

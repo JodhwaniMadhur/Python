@@ -1,14 +1,11 @@
-#https://us02web.zoom.us/j/81908539306?pwd=RlFVRlVTVVQ0ZkxoTE96Lzl3dnNNQT09
-
-
 import os
-from sys import *
+from sys import argv
 
 def DirectoryTraversal(path):
     print("Contents of the Directory are: ")
     for Folder,SubFolder,Filename in os.walk(path):
         print("Directory name is: "+Folder)
-    for sub in SubFolder:
+    for _ in SubFolder:
         print("Subfolder of "+Folder +"is "+ SubFolder)
     for file in Filename:
         print("File name is:"+file)

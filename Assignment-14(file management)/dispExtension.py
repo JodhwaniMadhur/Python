@@ -1,10 +1,10 @@
 import os
-from sys import *
+from sys import argv
 
 def fileExtensionChecker(path,ext):
     l=[]
-    for Folder,SubFolder,File in os.walk(path):
-        for sub in SubFolder:
+    for _,SubFolder,File in os.walk(path):
+        for _ in SubFolder:
             for file in File:
                 split_tup=os.path.splitext(file)
                 if((split_tup[1]==ext) and (file not in l)):

@@ -6,6 +6,7 @@ class Demo:
     x = 10
     
     def __init__(self,no1,no2):
+        '''Just initialization of variables taking place here'''
         self.i = no1
         self.j = no2
 
