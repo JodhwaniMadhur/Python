@@ -8,6 +8,7 @@ class Arithmetic:
 
 def main():
     obj=Arithmetic()
+    print(obj)
     
     
 

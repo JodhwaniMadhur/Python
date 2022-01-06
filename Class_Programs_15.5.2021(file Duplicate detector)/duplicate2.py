@@ -2,7 +2,7 @@
 
 
 import os
-from sys import *
+from sys import argv
 
 
 

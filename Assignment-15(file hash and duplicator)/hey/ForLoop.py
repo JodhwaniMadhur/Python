@@ -1,3 +1,4 @@
+from array import array 
 print("---- Marvellous Infosystems by Piyush Khairnar-----")
 
 print("Demonstration of For Loop")

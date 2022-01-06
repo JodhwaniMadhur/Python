@@ -37,7 +37,7 @@ def main():
     print("Play Predictor App")
     print("Enter file which contains dataset")
     path=input()
-    Predictor(path)
+    predictor(path)
 
 
 

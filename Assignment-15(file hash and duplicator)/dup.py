@@ -1,5 +1,5 @@
 import hashlib
-from sys import *
+from sys import argv
 import os
 
 
