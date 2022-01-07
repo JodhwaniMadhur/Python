@@ -8,7 +8,7 @@ def chkprime(num):
     else:
         return True
 
-def max(values):
+def maxfunc(values):
     i=0
     maxvar=0
     while i<len(values):
@@ -35,4 +35,4 @@ while i < len(arr):
 print("Data after Filter is:",brr)
 newdata2=list(map(lambda no:(no*2),brr))
 print("Data after Map is:",newdata2)
-print("Data after Reduce is",max(newdata2))
+print("Data after Reduce is",maxfunc(newdata2))

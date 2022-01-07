@@ -12,4 +12,4 @@ while i < no:
     print("Enter value for element no:",i+1)
     arr.append(int(input()))
     i+=1
-print("Sum of all elements of the list is:",SumList(arr))
+print("sum_of_var of all elements of the list is:",SumList(arr))

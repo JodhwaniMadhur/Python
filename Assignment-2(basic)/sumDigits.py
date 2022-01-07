@@ -1,10 +1,10 @@
 def SumDigits(num):
-    sum=0
+    sum_of_var=0
     while num>0:
         i=num%10
-        sum=sum+i
+        sum_of_var=sum_of_var+i
         num=num//10
-    print(sum)
+    print(sum_of_var)
 
 no=int(input())
 SumDigits(no)

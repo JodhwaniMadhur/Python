@@ -32,10 +32,10 @@ class Numbers:
             print(self.arr[i])
  
     def Summation(self):
-        sum = 0
+        sum_of_var = 0
         for i in range(self.size):
-            sum = sum + self.arr[i]
-        return sum
+            sum_of_var = sum_of_var + self.arr[i]
+        return sum_of_var
 
     def EvenDisplay(self):
         print("Even elemnets from list are :")
@@ -44,14 +44,14 @@ class Numbers:
                 print(self.arr[i])
 
     def PerfectDisplay(self):
-        sum = 0
+        sum_of_var = 0
         for i in range(self.size):
             for j in range(1,int(self.arr[i]/2)+1):
                 if (self.arr[i] % j) == 0:
-                    sum = sum + j
-            if sum == self.arr[i]:
+                    sum_of_var = sum_of_var + j
+            if sum_of_var == self.arr[i]:
                 print(self.arr[i])
-            sum = 0
+            sum_of_var = 0
 
     def PrimeDisplay(self):
         Flag = False

@@ -27,11 +27,11 @@ def MarvellousMap(brr):
 
 
 #this is reduce function
-def Sum(brr):
-    sum=0
+def sum_of_var(brr):
+    sum_of_var=0
     for i in range(len(brr)):
-        sum=sum+brr[i]
-    return sum
+        sum_of_var=sum_of_var+brr[i]
+    return sum_of_var
 
 
 def main():
@@ -48,7 +48,7 @@ def main():
     print(newdata)
     new=MarvellousMap(newdata)
     print(new)
-    ans=Sum(new)
+    ans=sum_of_var(new)
     print("Summation is:",ans)
 
 

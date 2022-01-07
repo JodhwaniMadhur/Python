@@ -25,7 +25,7 @@ def Deposit(lock):
     amount=amount+value
     print("Deposit successful-Balance: ",amount)
     lock.release()
-    
+
 
 
 

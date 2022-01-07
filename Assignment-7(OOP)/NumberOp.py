@@ -37,7 +37,7 @@ class Arithmetic:
         for x in range(1, self.Value):
            if self.Value % x == 0:
                sumofvar += x
-        print("Sum of Factors is:",sumofvar)
+        print("sum_of_var of Factors is:",sumofvar)
 
 def main():
     obj1=Arithmetic(65)

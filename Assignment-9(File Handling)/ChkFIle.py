@@ -1,7 +1,7 @@
 from os import path
 
-def chkfile(str):
-    return path.exists(str)
+def chkfile(string):
+    return path.exists(string)
 
 def main():
     string=input("Enter file name to be searched in the current directory")

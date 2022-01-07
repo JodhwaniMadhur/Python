@@ -38,6 +38,6 @@ ModArray = list(map(lambda no : no+2,evenArr))
 
 print("Data after map using lambda", ModArray)
 
-sum = functools.reduce(lambda a,b : a+b,ModArray)
+sum_of_var = functools.reduce(lambda a,b : a+b,ModArray)
 
-print("Addition of even numbers using lambda",sum)
+print("Addition of even numbers using lambda",sum_of_var)
