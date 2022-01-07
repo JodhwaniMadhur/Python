@@ -6,7 +6,7 @@ print("Demonstration of Array")
 # As there is no direct support for array in python we have to import array module to create array
 
 import array as arr
-from array import *
+from array import array
 
 a = arr.array('i', [2, 4, 6, 8])    # is is considered as type code
 
@@ -38,4 +38,3 @@ i =0
 while (i<len(b)):
     print(b[i])
     i+=1
-

@@ -1,5 +1,5 @@
 import hashlib
-from sys import *
+from sys import argv
 import os
 
 
@@ -21,17 +21,16 @@ def main():
     l=[]
     f=open("log.txt","wt")
     for Folder,Subfolder,File in os.walk(argv[1]):
-        for s in Subfolder:
+        for _ in Subfolder:
             for file in File:
                 actualpath=os.path.join(Folder,file)
-                hash=calculateCheckSum(actualpath)
-                if hash in l:
+                hash_of_file=calculateCheckSum(actualpath)
+                if hash_of_file in l:
                     f.write(actualpath)
                     f.write('\n')
                     os.remove(actualpath)
                 else:
-                    l.append(hash)
-                    
+                    l.append(hash_of_file)
 
 
 

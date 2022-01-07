@@ -1,11 +1,10 @@
 import pandas as pd
-import numpy as np 
 from sklearn.neighbors import KNeighborsClassifier
-from sklearn.preprocessing import OrdinalEncoder,LabelEncoder
+from sklearn.preprocessing import LabelEncoder
 
 def Predictor(path):
     data=pd.read_csv(path)
-    
+
     #prepare data
     weather,Temprature,Play=data.Wether,data.Temperature,data.Play
     ordinal=LabelEncoder()

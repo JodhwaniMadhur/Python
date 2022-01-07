@@ -1,20 +1,16 @@
 import os
-from sys import *
+from sys import argv
 
-def changeExtension(path,old_ext,new_ext):
-    for Folder,Subfolder,File in os.walk(path):
-        for s in Subfolder:
-            for f in File:
+def changextension(path,old_ext,new_ext):
+    for _,subfolder,file in os.walk(path):
+        for _ in subfolder:
+            for f in file:
                 if(os.path.splitext(f)[1]==old_ext):
                     os.rename(f,os.path.splitext(f)[0]+new_ext)
 
 
-                    
-                
-
-
 def main():
-    changeExtension(argv[1],argv[2],argv[3])
+    changextension(argv[1],argv[2],argv[3])
 
 
 

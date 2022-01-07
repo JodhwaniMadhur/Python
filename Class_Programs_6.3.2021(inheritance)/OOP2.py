@@ -21,7 +21,6 @@ class Student:
 def main():
     Student.Class_DisplaySchool()#calling class method
     obj1=Student(50,80,70)#object creation
-    obj2=Student(65,80,75)
     ret=obj1.Instance_Total()
     print("Total obtained marks",ret)
     Student.Static_Info() #calling static method

@@ -1,4 +1,3 @@
-import os
 import time
 import multiprocessing
 
@@ -20,9 +19,9 @@ def ParallelProcessing():
     start=time.time()
     print("Inside Parallel processing")
     arr=range(100)
-    ret=[]
+    _=[]
     pobj=multiprocessing.Pool()
-    ret=pobj.map(Square,arr)
+    _=pobj.map(Square,arr)
     end=time.time()
     print("Parallel execution:",end-start)
 

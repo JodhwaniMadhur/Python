@@ -2,7 +2,7 @@
 
 
 import os
-from sys import *
+from sys import argv
 
 
 
@@ -15,7 +15,7 @@ def DirectoryTraversal(path):
             print("Subfolder of "+Folder +" is "+ sub)
         for file in Filename:
             print("File name is:"+file)
-        
+
 
 
 

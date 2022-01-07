@@ -7,7 +7,7 @@ class Demo:
         print(self.no1)
     
     def Gun(self):
-        print(self.no2) 
+        print(self.no2)
 
 def main():
     obj=Demo(11,21)

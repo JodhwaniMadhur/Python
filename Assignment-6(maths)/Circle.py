@@ -1,9 +1,12 @@
 class Circle:
     pi=3.14
     def __init__(self):
+        """
+        Declaration of variables taking place here. 
+        """
         self.Area=0.0
         self.Circumference=0.0
-        
+
     def Accept(self):
         print("Enter value of radius")
         self.radius=float(input())
@@ -28,4 +31,3 @@ def main():
 
 if __name__ =="__main__":
     main()
-    

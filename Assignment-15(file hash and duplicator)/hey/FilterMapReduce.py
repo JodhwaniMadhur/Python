@@ -1,3 +1,4 @@
+import functools
 print("---- Marvellous Infosystems by Piyush Khairnar-----")
 
 print("Demonstration of Filter Map Reduce")
@@ -23,9 +24,9 @@ ModArray = list(map(Increase,evenArr))
 
 print("Data after map", ModArray)
 
-sum = reduce(Add,ModArray)
+sumofvar = functools.reduce(Add,ModArray)
 
-print("Addition of even numbers",sum)
+print("Addition of even numbers",sumofvar)
 
 # Demonstration of Filter, Map reduce using lambda functions
 
@@ -37,6 +38,6 @@ ModArray = list(map(lambda no : no+2,evenArr))
 
 print("Data after map using lambda", ModArray)
 
-sum = reduce(lambda a,b : a+b,ModArray)
+sum_of_var = functools.reduce(lambda a,b : a+b,ModArray)
 
-print("Addition of even numbers using lambda",sum)
+print("Addition of even numbers using lambda",sum_of_var)

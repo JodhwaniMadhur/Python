@@ -1,9 +1,7 @@
 print("---- Marvellous Infosystems by Piyush Khairnar-----")
 
-print("Demonstration of Behaviours of Class")
-      
+print("Demonstration of Behaviours of Class") 
 class Demo:
-      
       def __init__(self):
         self.i = 0
         self.j = 0
@@ -18,7 +16,7 @@ class Demo:
       @staticmethod
       def sun():
         print("Inside static")
-      
+
 obj1 = Demo()
 obj1.fun()
 Demo.gun()

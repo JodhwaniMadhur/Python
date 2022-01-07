@@ -1,5 +1,5 @@
-from numpy import *
-from array import *
+from numpy import linspace
+from array import array
 arr = [[12,13][12,31,2]]
 print(arr)
 arr = array([1,2,3,1,2,3.3],int)

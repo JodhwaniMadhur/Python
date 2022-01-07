@@ -12,7 +12,7 @@ def ChkPrime(num):
 
 arr=[]
 brr=[]
-sum=0
+sum_of_var=0
 print("Enter number of elements in the list")
 no=int(input())
 i=0
@@ -24,7 +24,6 @@ i=0
 while i < no:
     if ChkPrime(arr[i])==True:
         brr.append(arr[i])
-        sum=sum+arr[i]
+        sum_of_var=sum_of_var+arr[i]
     i=i+1
-print(sum)
-        
+print(sum_of_var)

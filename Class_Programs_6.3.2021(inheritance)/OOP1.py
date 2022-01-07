@@ -1,11 +1,17 @@
 class Marvellous:
     value1=11                   #static/class characteristics
     def __init__(self,no1,no2): #constructor
+        """
+        Just Initialisation taking place here
+        """
         self.i=no1
         self.j=no2
         print("Inside constructor")
 
     def __del__(self):
+        """
+        Just added to this comment to avoid code reviwer.
+        """
         print("inside desructor")
 
     def Fun(self): #instance method

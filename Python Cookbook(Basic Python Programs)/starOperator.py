@@ -1,9 +1,9 @@
 def drop_first_last(grades):
-    first,*middle,last=grades
+    _,*middle,_=grades
     #here middle with star considers to take whole list coz of assignment to the central list,
     # first gets assigned to the first  element and since middle has star it takes whole 
     # middle list and then last gets assigned to the last
-    return sum(middle)/len(middle)
+    return sum_of_var(middle)/len(middle)
 
 arr=[]
 print("Enter number of elements in the list")

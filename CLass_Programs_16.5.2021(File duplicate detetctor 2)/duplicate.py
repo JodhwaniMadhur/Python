@@ -1,4 +1,4 @@
-from sys import *
+from sys import argv
 import os
 import hashlib
 
@@ -31,7 +31,7 @@ def DirectoryTraversal(path):
                 duplicate[hash].append(actualpath)
             else:                           # there is no such checksum
                 duplicate[hash] = [actualpath]
-            
+
     return duplicate
 
 def DisplayDuplicate(duplicate):
@@ -42,7 +42,7 @@ def DisplayDuplicate(duplicate):
     else:
         print("There are no dupicate files")
         return
-    
+
     print("List of duplicate files are : ")
     icnt = 0
     for result in output:
@@ -56,23 +56,18 @@ def DisplayDuplicate(duplicate):
 def main():
     print("Marvellous Infosystems")
     print("Directory travesal script")
-    
     if(len(argv) != 2):
         print("Error : Invalid number of arguments")
         exit()
-        
     if(argv[1] == "-h") or  (argv[1] == "-H"):
         print("It is a Directory cleaner script")
         exit()
-        
     if(argv[1] == "-u") or (argv[1] == "-U"):
         print("Usage : Provide the absolute path of the target director")
         exit()
-
     arr = {}
     arr = DirectoryTraversal(argv[1])
-    
     DisplayDuplicate(arr)
-    
+
 if __name__ == "__main__":
     main()

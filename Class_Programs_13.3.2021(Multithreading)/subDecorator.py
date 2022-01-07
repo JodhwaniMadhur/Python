@@ -5,7 +5,6 @@ def main():
     #value2=int(input())
     ret=subDecorator(subraction)
     print("Subraction is:",ret)
-    
 
 #inbuilt function from module
 def subraction(no1,no2):

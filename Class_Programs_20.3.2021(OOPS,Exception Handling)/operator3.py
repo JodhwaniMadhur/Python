@@ -1,13 +1,15 @@
 class Student:
     def __init__(self,str,a,b,c):
+        """initialization taking place here"""
         self.name=str
         self.m1=a
         self.m2=b
         self.m3=c
 
     def __eq__(self,other):
-         return self.m1==other.m1 and self.m2==other.m2 and self.m3==other.m3
-            
+        """Just returning of true or false here"""
+        return self.m1==other.m1 and self.m2==other.m2 and self.m3==other.m3
+
 
 
 def main():

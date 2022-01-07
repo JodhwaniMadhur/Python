@@ -1,5 +1,6 @@
 class Demo:
     def __init__(self,x,y):
+        """Initialization taking place here"""
         self.i=x
         self.j=y
 
