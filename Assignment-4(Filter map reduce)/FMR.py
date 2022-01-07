@@ -1,5 +1,3 @@
-
-
 def Filter(values):
     i=0
     while i < len(values):

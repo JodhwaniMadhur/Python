@@ -25,7 +25,7 @@ def Digits(value):
         if((value[i]>='0') and (value[i]<='9')):
             count_digits+=1
     print(count_digits)
-        
+
 def main():
     print("Inside Main")
     print("PID of main function: ",os.getpid())

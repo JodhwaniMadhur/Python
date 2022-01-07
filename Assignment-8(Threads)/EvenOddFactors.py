@@ -7,7 +7,7 @@ def EvenFactors(value):
         if i%2==0:
             sum_even+=i
     print(sum_even)
-        
+
 def OddFactors(value):
     sum_odd=0
     print("Inside Odd function")

@@ -5,7 +5,7 @@ def Even(value):
     for i in range(1,2*value):
         if i%2==0:
             print(i)
-        
+
 def Odd(value):
     print("Inside Odd function")
     for i in range(1,2*value):

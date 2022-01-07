@@ -7,7 +7,6 @@ def Sum(value):
         sum=sum+(value%10)
         value=value//10
         Sum(value)
-    
-
+        
 no=int(input())
 Sum(no)

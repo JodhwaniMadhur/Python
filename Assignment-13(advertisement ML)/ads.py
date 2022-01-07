@@ -10,7 +10,6 @@ def predictor(train_x,train_y,test_x,test_y):
     obj.fit(train_x,train_y)
     print("R Square value is: ",obj.score(train_x,train_y))
 
-    
 
 
 def data_divider(data):
@@ -32,7 +31,7 @@ def main():
     data_label=data_converter(pd.read_csv(path,usecols=attributes))
     data_target=data_converter(pd.read_csv(path,usecols=['sales']))
     train_label,test_label=data_divider(data_label)
-    
+
 
     train_target,test_target=data_divider(data_target)
     print(train_label.info())

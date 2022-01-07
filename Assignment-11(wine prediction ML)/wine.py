@@ -24,8 +24,7 @@ def linear_regression_predictor(train_x,train_y,test_x,test_y):
     obj=LinearRegression()
     obj.fit(train_x,train_y)
     print("R square value is:",obj.score(train_x,train_y))
-    
-    
+
 
 
 def main():
@@ -43,8 +42,7 @@ def main():
     train_target,test_target=data_cutter(data_target)
     linear_regression_predictor(train_label,train_target,test_label,test_target)
     #passing it to linear regression function for fit and accuracy calculation
-    
-    
+
 
 
 

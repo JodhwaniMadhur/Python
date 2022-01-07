@@ -31,7 +31,6 @@ def main():
                     os.remove(actualpath)
                 else:
                     l.append(hash)
-                    
 
 
 

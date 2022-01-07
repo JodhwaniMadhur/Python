@@ -27,4 +27,3 @@ while i < no:
         sum=sum+arr[i]
     i=i+1
 print(sum)
-        

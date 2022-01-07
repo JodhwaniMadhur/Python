@@ -11,4 +11,3 @@ bobj = B()
 
 bobj.fun()
 bobj.gun()
-

@@ -11,9 +11,6 @@ class Arithmetic:
         else:
             print(self.Value, "is not a prime numberber")
 
-    
-        
-        
     def ChkPerfect(self):
         sumofvar = 0
         for x in range(1, self.Value):
@@ -26,9 +23,7 @@ class Arithmetic:
         else:
             print(self.Value,end=" ")
             print("is not a Perfect Number")
-            
-        
-    
+
     def printFactors(self):
         i=1
         while(i<self.Value):
@@ -36,14 +31,14 @@ class Arithmetic:
                 print(i,end=" ")
             i=i+1
         print()
-              
+
     def FactorSum(self):
         sumofvar = 0
         for x in range(1, self.Value):
            if self.Value % x == 0:
                sumofvar += x
         print("Sum of Factors is:",sumofvar)
-              
+
 def main():
     obj1=Arithmetic(65)
     obj2=Arithmetic(54)
@@ -56,6 +51,6 @@ def main():
     obj2.printFactors()
     obj2.FactorSum()
 
-              
+
 if __name__=="__main__":
     main()

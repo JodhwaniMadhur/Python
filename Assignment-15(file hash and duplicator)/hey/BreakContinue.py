@@ -12,6 +12,4 @@ print("Demonstration of continue")
 for i in range(0,9):
     if(i == 3):
         continue
-    print(i);
-
-
+    print(i)

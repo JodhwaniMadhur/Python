@@ -3,7 +3,7 @@ class Base:
         """initialization taking place here"""
         self.i = 10
         self.j = 20
-        
+  
     def fun(self):
         print("Base fun")
 
@@ -23,6 +23,6 @@ class Derived(Base):
         super().fun()       # fun(self)
         # print(i)
         print(self.i)
-        
+
 dobj = Derived()
 dobj.gun()

@@ -9,7 +9,7 @@ class Student:
     def __eq__(self,other):
         """Just returning of true or false here"""
         return self.m1==other.m1 and self.m2==other.m2 and self.m3==other.m3
-            
+
 
 
 def main():

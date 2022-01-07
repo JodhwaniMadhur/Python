@@ -8,9 +8,6 @@ def changextension(path,old_ext,new_ext):
                 if(os.path.splitext(f)[1]==old_ext):
                     os.rename(f,os.path.splitext(f)[0]+new_ext)
 
-                 
-                
-
 
 def main():
     changextension(argv[1],argv[2],argv[3])

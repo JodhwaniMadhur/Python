@@ -7,7 +7,7 @@ class BookStore:
         self.book=bookname
         self.name=author
         BookStore.no+=1
-        
+
     def display(self):
         print(self.book,end=" ")
         print(self.name,end=" ")
@@ -18,6 +18,6 @@ def main():
     obj1.display()
     obj2=BookStore("C Programming","Dennis Ritchie")
     obj2.display()
-    
+
 if __name__=="__main__":
     main()

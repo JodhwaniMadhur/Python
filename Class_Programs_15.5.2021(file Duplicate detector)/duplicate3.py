@@ -1,6 +1,6 @@
 import os
 from sys import argv
- 
+
 import checksum,logger,mailer,checkNetwork,twiliooo
 from datetime import datetime
 
@@ -24,9 +24,6 @@ def DirectoryTraversal(path):
     ans=DisplayDuplicate(a_dict)
     mailer.mail(current_date_time,ans)
     twiliooo.tw(current_date_time,ans)
-    
-        
-        
 
 def DisplayDuplicate(a_dict):
     output = list(filter(lambda x : len(x) > 1, a_dict.values()))
@@ -36,7 +33,7 @@ def DisplayDuplicate(a_dict):
     else:
         print("There are no dupicate files")
         return
-    
+
     print("List of duplicate files are : ")
     icnt = 0
     counter=0
@@ -63,11 +60,6 @@ def main():
     path=os.path.join(os.getcwd(),argv[1])
     if((os.path.isdir(path)==True) and (checkNetwork.is_internet_available()==True)):
         DirectoryTraversal(argv[1])
-
-
-
-
-    
 
 if __name__=="__main__":
     main()
