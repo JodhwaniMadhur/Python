@@ -8,7 +8,7 @@ class Demo:
         print("Inside init method")
         self.i = value1
         self.j = value2
-    
+
     def fun(self):
         print("Inside fun")
         print(self.i,self.j)

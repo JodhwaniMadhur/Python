@@ -4,7 +4,7 @@ from sklearn.preprocessing import LabelEncoder
 
 def Predictor(path):
     data=pd.read_csv(path)
-    
+
     #prepare data
     weather,Temprature,Play=data.Wether,data.Temperature,data.Play
     ordinal=LabelEncoder()

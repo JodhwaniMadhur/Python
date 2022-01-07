@@ -21,15 +21,15 @@ def headbrain(path):
     #X-new=dtaset["Head Size(cm^3)"].values
     #ouput=obj.predict(X_new)
     #print("Expected Result is: ",output)
-    
+
 
 
     rsquare=obj.score(X,Y)
     print(rsquare)
 
-    
 
-    
+
+
 
 
 

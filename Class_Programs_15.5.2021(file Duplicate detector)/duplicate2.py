@@ -15,7 +15,7 @@ def DirectoryTraversal(path):
             print("Subfolder of "+Folder +" is "+ sub)
         for file in Filename:
             print("File name is:"+file)
-        
+
 
 
 

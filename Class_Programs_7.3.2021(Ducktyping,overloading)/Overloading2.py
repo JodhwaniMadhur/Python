@@ -11,7 +11,7 @@ class Demo:
         else:
             return 0
 
-    
+
 obj=Demo()
 ret=obj.Add(10,22,214)
 print(ret)

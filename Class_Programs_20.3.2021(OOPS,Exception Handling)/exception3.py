@@ -10,6 +10,6 @@ except Exception as eobj:
 else:
     print("Inside else block")
     print("Division is: ",ans)
-	
+
 finally:
     print("deallocate all resorces") 

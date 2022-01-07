@@ -21,6 +21,6 @@ class Derived(Base):
         super().fun()       # fun(self)
         # print(i)
         print(self.i)
-        
+
 dobj = Derived()
 dobj.gun()

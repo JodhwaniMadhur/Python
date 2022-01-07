@@ -3,15 +3,15 @@ class Base:
         self.i=10
         self.j=20
         print("inside Base constructor")
-        
-    
+
+
 class Derived1(Base):
     def __init__(self):
         Base.__init__(self)#####Important### is like super in java
         self.x=30#for calling base instance varibales we need to call base constructor from derived
         self.y=40
         print("Inside derived1 constructor")
-    
+
 class Derived2(Derived1):
     def __init__(self):
         Derived1.__init__(self)
@@ -21,7 +21,7 @@ class Derived2(Derived1):
 
 
 
-    
+
 def main():
     dobj=Derived2()
     print(dobj.i)
@@ -30,7 +30,7 @@ def main():
     print(dobj.y)
     print(dobj.a)
     print(dobj.b)
-    
+
 
 if __name__=="__main__":
     main()

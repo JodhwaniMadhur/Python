@@ -7,7 +7,7 @@ class Demo:
         return no1+no2+no3
 
 
-    
+
 obj=Demo()
 ret=obj.Add(10,22)
 ret=obj.Add(10,20,30)

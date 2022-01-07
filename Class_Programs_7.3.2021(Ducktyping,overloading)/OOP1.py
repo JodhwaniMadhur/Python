@@ -10,10 +10,10 @@ class Base:
 
     def fun(self):
         print(self.no1,self._no2,self.__no3)
-    
+
     def _fun(self):
         print(self.no1,self._no2,self.__no3)
-    
+
     def __fun(self):
         print(self.no1,self._no2,self.__no3)
 

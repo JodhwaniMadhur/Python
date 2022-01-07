@@ -18,7 +18,6 @@ def MarvellousFilter(arr):
     for i in range(len(arr)):
         if CheckEven(arr[i])==True:
             brr.append(arr[i])
-    
     return brr
 #this is map function
 def MarvellousMap(brr):

@@ -15,7 +15,7 @@ x = input()
 print("Enter Second number " )
 
 y = input()
-      
+
 z = x + y
-      
+
 print(z)

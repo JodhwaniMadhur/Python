@@ -10,8 +10,7 @@ print ("Enter numbers in array: ")
 for i in range(0,int(num)):
     # Accept individual element from user
     no = input("num :")
-               
-               # Insert that element into List
+    # Insert that element into List
     arr.append(int(no))
-               
+
 print ("Entered elements are",arr)

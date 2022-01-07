@@ -1,10 +1,5 @@
 from sys import argv
 
-
-
-
-
-
 def main():
     print("Directory Traversal Script")
     if(len(argv)!=2):

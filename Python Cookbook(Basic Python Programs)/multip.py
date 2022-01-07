@@ -22,7 +22,7 @@ if __name__ == "__main__":
     print("Total cores available : ",multiprocessing.cpu_count())
     print('parent process of main:', os.getppid())
     print('process id of main:', os.getpid())
-    
+
     number = 3
     result = None
 
@@ -34,21 +34,3 @@ if __name__ == "__main__":
 
     p1.join()
     p2.join()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -9,8 +9,7 @@ class Arithmetic:
 def main():
     obj=Arithmetic()
     print(obj)
-    
-    
+
 
 if __name__=="__main__":
     main()

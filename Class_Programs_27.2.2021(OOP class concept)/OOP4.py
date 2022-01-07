@@ -7,7 +7,7 @@ class Arithmetic:
         print("Inside Constructor")
         self.no1=i
         self.no2=j
-        
+
     def Add(self):
         return self.no1+self.no2
     
